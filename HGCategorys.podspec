@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-简单的分类实现.
+简单的分类实现,包括:NSString,UITextFiled,UITextView.
                    DESC
 
   s.homepage     = "https://github.com/Summary2017/Categorys"
