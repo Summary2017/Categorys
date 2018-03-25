@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5100220E20677B4C00D0A984 /* HGController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100220A20677B4B00D0A984 /* HGController.m */; };
+		5100220F20677B4C00D0A984 /* SetupSignatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100220C20677B4B00D0A984 /* SetupSignatureCell.m */; };
+		5100221420677BF700D0A984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5100221120677BF600D0A984 /* Assets.xcassets */; };
+		5100221520677BF700D0A984 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5100221220677BF700D0A984 /* Info.plist */; };
+		5100221620677BF700D0A984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5100221320677BF700D0A984 /* main.m */; };
+		5100221B20677C0700D0A984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5100221720677C0700D0A984 /* Main.storyboard */; };
+		5100221C20677C0700D0A984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5100221920677C0700D0A984 /* LaunchScreen.storyboard */; };
 		5142B9581FF4B22200D904CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5142B9571FF4B22200D904CB /* AppDelegate.m */; };
-		5142B95B1FF4B22200D904CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5142B95A1FF4B22200D904CB /* ViewController.m */; };
-		5142B95E1FF4B22200D904CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5142B95C1FF4B22200D904CB /* Main.storyboard */; };
-		5142B9601FF4B22200D904CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5142B95F1FF4B22200D904CB /* Assets.xcassets */; };
-		5142B9631FF4B22200D904CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5142B9611FF4B22200D904CB /* LaunchScreen.storyboard */; };
-		5142B9661FF4B22200D904CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5142B9651FF4B22200D904CB /* main.m */; };
 		FBA6549F4550A075F06FCC99 /* libPods-HGCategorysDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D166CA8E4469F9B3154A31DB /* libPods-HGCategorysDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37CD203DA59586304E2CE757 /* Pods-HGCategorysDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCategorysDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCategorysDemo/Pods-HGCategorysDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5100220A20677B4B00D0A984 /* HGController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGController.m; sourceTree = "<group>"; };
+		5100220B20677B4B00D0A984 /* SetupSignatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupSignatureCell.h; sourceTree = "<group>"; };
+		5100220C20677B4B00D0A984 /* SetupSignatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupSignatureCell.m; sourceTree = "<group>"; };
+		5100220D20677B4C00D0A984 /* HGController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGController.h; sourceTree = "<group>"; };
+		5100221120677BF600D0A984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5100221220677BF700D0A984 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5100221320677BF700D0A984 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5100221820677C0700D0A984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5100221A20677C0700D0A984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5142B9531FF4B22200D904CB /* HGCategorysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGCategorysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5142B9561FF4B22200D904CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5142B9571FF4B22200D904CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5142B9591FF4B22200D904CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5142B95A1FF4B22200D904CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5142B95D1FF4B22200D904CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5142B95F1FF4B22200D904CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5142B9621FF4B22200D904CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5142B9641FF4B22200D904CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5142B9651FF4B22200D904CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B39ACC832DABFF6D94BC134 /* Pods-HGCategorysDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCategorysDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCategorysDemo/Pods-HGCategorysDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D166CA8E4469F9B3154A31DB /* libPods-HGCategorysDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGCategorysDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -53,6 +57,38 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5100221020677BB400D0A984 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5100221920677C0700D0A984 /* LaunchScreen.storyboard */,
+				5100221720677C0700D0A984 /* Main.storyboard */,
+				5100221120677BF600D0A984 /* Assets.xcassets */,
+				5100221220677BF700D0A984 /* Info.plist */,
+				5100221320677BF700D0A984 /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5100221D20677D5B00D0A984 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5142B9561FF4B22200D904CB /* AppDelegate.h */,
+				5142B9571FF4B22200D904CB /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5100221E20677D7100D0A984 /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				5100220D20677B4C00D0A984 /* HGController.h */,
+				5100220A20677B4B00D0A984 /* HGController.m */,
+				5100220B20677B4B00D0A984 /* SetupSignatureCell.h */,
+				5100220C20677B4B00D0A984 /* SetupSignatureCell.m */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
 		5142B94A1FF4B22200D904CB = {
 			isa = PBXGroup;
 			children = (
@@ -74,15 +110,9 @@
 		5142B9551FF4B22200D904CB /* HGCategorysDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5142B9561FF4B22200D904CB /* AppDelegate.h */,
-				5142B9571FF4B22200D904CB /* AppDelegate.m */,
-				5142B9591FF4B22200D904CB /* ViewController.h */,
-				5142B95A1FF4B22200D904CB /* ViewController.m */,
-				5142B95C1FF4B22200D904CB /* Main.storyboard */,
-				5142B95F1FF4B22200D904CB /* Assets.xcassets */,
-				5142B9611FF4B22200D904CB /* LaunchScreen.storyboard */,
-				5142B9641FF4B22200D904CB /* Info.plist */,
-				5142B9651FF4B22200D904CB /* main.m */,
+				5100221E20677D7100D0A984 /* Signature */,
+				5100221D20677D5B00D0A984 /* AppDelegate */,
+				5100221020677BB400D0A984 /* SupportingFiles */,
 			);
 			path = HGCategorysDemo;
 			sourceTree = "<group>";
@@ -156,9 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5142B9631FF4B22200D904CB /* LaunchScreen.storyboard in Resources */,
-				5142B9601FF4B22200D904CB /* Assets.xcassets in Resources */,
-				5142B95E1FF4B22200D904CB /* Main.storyboard in Resources */,
+				5100221B20677C0700D0A984 /* Main.storyboard in Resources */,
+				5100221C20677C0700D0A984 /* LaunchScreen.storyboard in Resources */,
+				5100221520677BF700D0A984 /* Info.plist in Resources */,
+				5100221420677BF700D0A984 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,13 +217,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGCategorysDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FDD31ADDF59C5DA0E998BB63 /* [CP] Copy Pods Resources */ = {
@@ -217,8 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5142B95B1FF4B22200D904CB /* ViewController.m in Sources */,
-				5142B9661FF4B22200D904CB /* main.m in Sources */,
+				5100220E20677B4C00D0A984 /* HGController.m in Sources */,
+				5100220F20677B4C00D0A984 /* SetupSignatureCell.m in Sources */,
+				5100221620677BF700D0A984 /* main.m in Sources */,
 				5142B9581FF4B22200D904CB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,18 +261,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5142B95C1FF4B22200D904CB /* Main.storyboard */ = {
+		5100221720677C0700D0A984 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5142B95D1FF4B22200D904CB /* Base */,
+				5100221820677C0700D0A984 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5142B9611FF4B22200D904CB /* LaunchScreen.storyboard */ = {
+		5100221920677C0700D0A984 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5142B9621FF4B22200D904CB /* Base */,
+				5100221A20677C0700D0A984 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -356,7 +391,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8Y5E9ZUX3;
-				INFOPLIST_FILE = HGCategorysDemo/Info.plist;
+				INFOPLIST_FILE = HGCategorysDemo/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderHG.HGCategorysDemo;
@@ -372,7 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8Y5E9ZUX3;
-				INFOPLIST_FILE = HGCategorysDemo/Info.plist;
+				INFOPLIST_FILE = HGCategorysDemo/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderHG.HGCategorysDemo;

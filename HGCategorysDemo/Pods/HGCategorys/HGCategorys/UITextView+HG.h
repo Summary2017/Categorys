@@ -16,10 +16,15 @@
 - (NSInteger)getInputLengthWithText:(NSString *)text;
 
 
+/** 是否高亮 */
+@property (nonatomic, readonly) BOOL hg_isHighLighted;
+
+
 /**
  输入无效,将已经数据的打回原形
  
  @param curContent 希望当前的显示内容
  */
-- (void)invalidTextFieldCurContent:(NSString*)curContent;
+- (void)hg_invalidTextFieldCurContent:(NSString*)curContent;
+
 @end

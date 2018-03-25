@@ -48,7 +48,7 @@
  
  @param curContent 希望当前的显示内容
  */
-- (void)invalidTextFieldCurContent:(NSString*)curContent {
+- (void)hg_invalidTextFieldCurContent:(NSString*)curContent {
     // 保留光标的位置信息
     NSRange selectedRange = self.hg_selectedRange;
     // 保留当前文本的内容

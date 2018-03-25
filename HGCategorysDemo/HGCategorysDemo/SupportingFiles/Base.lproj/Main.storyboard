@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4FX-p0-kea">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--设置个性签名-->
+        <scene sceneID="xW6-UK-lqk">
+            <objects>
+                <tableViewController id="apa-j8-EQr" customClass="HGController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="209" sectionHeaderHeight="18" sectionFooterHeight="18" id="lIs-bx-S8f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="SetupSignatureCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="SetupSignatureCell" rowHeight="209" id="Rhs-NA-ab0" customClass="SetupSignatureCell">
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="209"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rhs-NA-ab0" id="FeH-1K-znz">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="208.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aPU-GK-nu1">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="208.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            <connections>
+                                                <outlet property="delegate" destination="Rhs-NA-ab0" id="qZh-Sp-JpP"/>
+                                            </connections>
+                                        </textView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赶快设置一下你特有的个性签名吧" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1V-Na-tNy">
+                                            <rect key="frame" x="10" y="10" width="199" height="16"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/120" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeX-OA-Ini">
+                                            <rect key="frame" x="333" y="184" width="32" height="15"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="n1V-Na-tNy" firstAttribute="top" secondItem="FeH-1K-znz" secondAttribute="top" constant="10" id="0jH-h2-Tqw"/>
+                                        <constraint firstItem="aPU-GK-nu1" firstAttribute="top" secondItem="FeH-1K-znz" secondAttribute="top" id="Bm0-3R-AzC"/>
+                                        <constraint firstAttribute="bottom" secondItem="aPU-GK-nu1" secondAttribute="bottom" id="IWf-0M-xcq"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="n1V-Na-tNy" secondAttribute="trailing" constant="20" symbolic="YES" id="LPG-T4-obO"/>
+                                        <constraint firstAttribute="trailing" secondItem="VeX-OA-Ini" secondAttribute="trailing" constant="10" id="UvL-n0-vdE"/>
+                                        <constraint firstItem="aPU-GK-nu1" firstAttribute="leading" secondItem="FeH-1K-znz" secondAttribute="leading" id="X6w-gs-9FY"/>
+                                        <constraint firstItem="n1V-Na-tNy" firstAttribute="leading" secondItem="FeH-1K-znz" secondAttribute="leading" constant="10" id="c26-XU-OS6"/>
+                                        <constraint firstAttribute="bottom" secondItem="VeX-OA-Ini" secondAttribute="bottom" constant="10" id="iBb-SA-gOi"/>
+                                        <constraint firstItem="VeX-OA-Ini" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FeH-1K-znz" secondAttribute="leading" constant="20" symbolic="YES" id="tE5-zz-h9c"/>
+                                        <constraint firstAttribute="trailing" secondItem="aPU-GK-nu1" secondAttribute="trailing" id="uhu-Vo-8l4"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="countLabel" destination="VeX-OA-Ini" id="xsz-eh-gwR"/>
+                                    <outlet property="placeholderLabel" destination="n1V-Na-tNy" id="drc-BT-tml"/>
+                                    <outlet property="textView" destination="aPU-GK-nu1" id="USS-8p-bD3"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="apa-j8-EQr" id="Yxp-hd-2fg"/>
+                            <outlet property="delegate" destination="apa-j8-EQr" id="H7U-Sm-PDY"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="设置个性签名" id="30c-PS-5UP"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgu-PO-rmc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="557.60000000000002" y="118.29085457271366"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LXp-8Z-kiM">
+            <objects>
+                <navigationController id="4FX-p0-kea" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hP0-hb-ZSY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="apa-j8-EQr" kind="relationship" relationship="rootViewController" id="ujt-WB-V5r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IP5-PB-vy9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-393" y="119"/>
+        </scene>
+    </scenes>
+</document>

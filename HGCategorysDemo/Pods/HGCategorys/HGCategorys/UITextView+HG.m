@@ -28,12 +28,21 @@
 }
 
 
+// 是否高亮
+- (BOOL)hg_isHighLighted {
+    UITextRange *selectedRange = [self markedTextRange];
+    // 获取高亮部分
+    UITextPosition *pos = [self positionFromPosition:selectedRange.start offset:0];
+    // 是否处于高亮状态
+    return (selectedRange && pos);
+}
+
 /**
  输入无效,将已经数据的打回原形
  
  @param curContent 希望当前的显示内容
  */
-- (void)invalidTextFieldCurContent:(NSString*)curContent {
+- (void)hg_invalidTextFieldCurContent:(NSString*)curContent {
     // 保留光标的位置信息
     NSRange selectedRange = self.selectedRange;
     // 保留当前文本的内容

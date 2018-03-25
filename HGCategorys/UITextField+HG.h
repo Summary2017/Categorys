@@ -23,7 +23,7 @@
  
  @param curContent 希望当前的显示内容
  */
-- (void)invalidTextFieldCurContent:(NSString*)curContent;
+- (void)hg_invalidTextFieldCurContent:(NSString*)curContent;
 
 
 @end

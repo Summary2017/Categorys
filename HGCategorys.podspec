@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "HGCategorys"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "HGCategorys."
 
   # This description is used to generate tags and improve search results.

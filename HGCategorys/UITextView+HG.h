@@ -13,7 +13,10 @@
 /**
  * 获取高亮部分
  */
-- (NSInteger)getInputLengthWithText:(NSString *)text;
+- (NSInteger)hg_getInputLengthWithText:(NSString *)text;
+
+/** 是否高亮 */
+@property (nonatomic, readonly) BOOL hg_isHighLighted;
 
 
 /**
@@ -21,5 +24,5 @@
  
  @param curContent 希望当前的显示内容
  */
-- (void)invalidTextFieldCurContent:(NSString*)curContent;
+- (void)hg_invalidTextFieldCurContent:(NSString*)curContent;
 @end
