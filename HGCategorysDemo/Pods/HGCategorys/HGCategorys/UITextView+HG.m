@@ -13,7 +13,7 @@
 /**
  * 获取高亮部分
  */
-- (NSInteger)getInputLengthWithText:(NSString *)text
+- (NSInteger)hg_getInputLengthWithText:(NSString *)text
 {
     NSInteger textLength = 0;
     //获取高亮部分
@@ -26,7 +26,6 @@
     }
     return textLength;
 }
-
 
 // 是否高亮
 - (BOOL)hg_isHighLighted {

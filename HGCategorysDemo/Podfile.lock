@@ -1,11 +1,11 @@
 PODS:
-  - HGCategorys (1.0.0)
+  - HGCategorys (1.1.0)
 
 DEPENDENCIES:
   - HGCategorys
 
 SPEC CHECKSUMS:
-  HGCategorys: b2684213d570008a2c3bddb2d7773c781436aaf9
+  HGCategorys: dcb5a75d662073a894e9c4b411e518c56d55365f
 
 PODFILE CHECKSUM: 9d4ff7fe24b11205a54d0f08b91d61a17c5dacb8
 
