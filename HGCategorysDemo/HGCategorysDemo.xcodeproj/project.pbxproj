@@ -32,6 +32,7 @@
 		5142B9531FF4B22200D904CB /* HGCategorysDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGCategorysDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5142B9561FF4B22200D904CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5142B9571FF4B22200D904CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51968A7E20D773B300BCBD34 /* HGCategorys_Private.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = HGCategorys_Private.podspec; path = ../HGCategorys_Private.podspec; sourceTree = "<group>"; };
 		5B39ACC832DABFF6D94BC134 /* Pods-HGCategorysDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCategorysDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCategorysDemo/Pods-HGCategorysDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D166CA8E4469F9B3154A31DB /* libPods-HGCategorysDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGCategorysDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,6 +93,7 @@
 		5142B94A1FF4B22200D904CB = {
 			isa = PBXGroup;
 			children = (
+				51968A7C20D76D5200BCBD34 /* PodSpecs */,
 				5142B9551FF4B22200D904CB /* HGCategorysDemo */,
 				5142B9541FF4B22200D904CB /* Products */,
 				3E0298241712789EB2166031 /* Pods */,
@@ -115,6 +117,14 @@
 				5100221020677BB400D0A984 /* SupportingFiles */,
 			);
 			path = HGCategorysDemo;
+			sourceTree = "<group>";
+		};
+		51968A7C20D76D5200BCBD34 /* PodSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				51968A7E20D773B300BCBD34 /* HGCategorys_Private.podspec */,
+			);
+			name = PodSpecs;
 			sourceTree = "<group>";
 		};
 		CCD33B244389EC337F29C46D /* Frameworks */ = {
